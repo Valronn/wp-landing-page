@@ -1,0 +1,13 @@
+@import './variables/colors';
+@import './variables/fonts';
+
+
+
+body{
+    background:#fff;
+    font-family:$ubuntu;
+}
+.transparent{
+    background:transparent;
+    box-shadow:none;
+}

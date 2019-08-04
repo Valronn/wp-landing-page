@@ -60,6 +60,8 @@
             <div class="d-none d-md-block col-lg-6 col-md-12 col-sm-12">
                 <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/images/phone_header/images/images/phone_03_03.png" />
             </div></div>
-            
+            <div class="d-none d-md-block icon-down mx-auto">
+                <a href='#'><i class="fas fa-chevron-down"></i></a>
+            </div>
         </div>
     </header>

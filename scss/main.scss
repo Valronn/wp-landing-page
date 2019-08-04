@@ -8,9 +8,12 @@ body{
     font-family:$ubuntu;
 }
 header{
+    min-height:100vh;
     height:100%;
     background:url('./images/header_background/images/bg.jpg') no-repeat center center fixed;
     background-size: cover;
+    border-bottom-left-radius: 60% 8%;
+    border-bottom-right-radius: 60% 8%;
     .transparent{
     background:transparent;
     box-shadow:none;
@@ -63,4 +66,34 @@ header{
       background:$orange;
       color:$white;
     }
+    .icon-down{
+      width:100%;
+      left:50%;
+      position: absolute;
+      height:40px;
+      width:40px;
+      background:$white;
+      border-radius:50%;
+    }
+    .fa-chevron-down{
+      color:#FF5459;
+      left: 13px;
+    top: 14px;
+      position: absolute;
+    }
+}
+
+.features{
+  .bot_title{
+    margin-bottom: 10rem;
+  }
+  height:100vh;
+  .title{
+    margin-top:10rem;
+    color:$blue;
+  }
+  img{
+    width:5rem;
+    height:4rem;
+  }
 }

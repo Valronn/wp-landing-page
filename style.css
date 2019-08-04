@@ -4,9 +4,12 @@ body {
 }
 
 header {
+  min-height: 100vh;
   height: 100%;
   background: url("./images/header_background/images/bg.jpg") no-repeat center center fixed;
   background-size: cover;
+  border-bottom-left-radius: 60% 8%;
+  border-bottom-right-radius: 60% 8%;
 }
 header .transparent {
   background: transparent;
@@ -59,6 +62,36 @@ header .feature-btn {
 header .download-btn {
   background: #FC6A42;
   color: #fff;
+}
+header .icon-down {
+  width: 100%;
+  left: 50%;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+header .fa-chevron-down {
+  color: #FF5459;
+  left: 13px;
+  top: 14px;
+  position: absolute;
+}
+
+.features {
+  height: 100vh;
+}
+.features .bot_title {
+  margin-bottom: 10rem;
+}
+.features .title {
+  margin-top: 10rem;
+  color: #648CFF;
+}
+.features img {
+  width: 5rem;
+  height: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,8 +3,62 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
-.transparent {
+header {
+  height: 100%;
+  background: url("./images/header_background/images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+header .transparent {
   background: transparent;
+  box-shadow: none;
+}
+header .transparent .nav-link {
+  color: #fff;
+  font-size: 1rem;
+}
+header .transparent .navbar-brand {
+  color: #fff;
+  width: 40%;
+}
+header .transparent .toggler {
+  transition: 1s all ease;
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+}
+header .transparent .toggler .bar-1 {
+  height: 3px;
+  width: 30px;
+  background: #fff;
+}
+header .transparent .toggler .bar-2 {
+  height: 3px;
+  width: 15px;
+  margin-left: 7px;
+  background: #fff;
+}
+header .transparent .toggler .bar-3 {
+  height: 3px;
+  width: 30px;
+  background: #fff;
+}
+header h1, header h6 {
+  color: #fff;
+}
+header .buttons {
+  margin-right: 7.5rem;
+}
+header img {
+  width: 30rem;
+  margin-left: 3rem;
+}
+header .feature-btn {
+  background: #4466C9;
+  color: #fff;
+}
+header .download-btn {
+  background: #FC6A42;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,7 +7,60 @@ body{
     background:#fff;
     font-family:$ubuntu;
 }
-.transparent{
+header{
+    height:100%;
+    background:url('./images/header_background/images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    .transparent{
     background:transparent;
     box-shadow:none;
+    .nav-link{
+        color:$white;
+        font-size:1rem;
+    }
+    .navbar-brand{
+        color:$white;
+        width:40%;
+    }
+    .toggler {
+        transition: 1s all ease;
+        width: 50px;
+        height: 50px;
+        margin-top: 40px;
+        .bar-1 {
+        height: 3px;
+        width: 30px;
+        background: $white;
+      }
+      .bar-2 {
+        height: 3px;
+        width: 15px;
+        margin-left: 7px;
+        background: $white;
+      }
+      .bar-3 {
+        height: 3px;
+        width: 30px;
+        background: $white;
+      }
+      }
+    }
+    h1,h6{
+      color:$white;
+    }
+    .buttons{
+      margin-right:7.5rem;
+    }
+    img{
+      width:30rem;
+      margin-left:3rem;
+    }
+    .feature-btn{
+      background:$blue-d;
+      color:$white;
+    }
+    .download-btn{
+      background:$orange;
+      color:$white;
+    }
 }

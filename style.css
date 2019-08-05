@@ -157,4 +157,16 @@ header .fa-chevron-down {
   margin-bottom: 10rem;
 }
 
+.download-app {
+  height: 100%;
+  min-height: 15rem;
+  background: #648CFF;
+}
+.download-app .pre-footer {
+  padding-top: 5rem;
+}
+.download-app .white-text {
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */

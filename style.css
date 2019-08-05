@@ -1,4 +1,5 @@
-body {
+body, html {
+  overflow-x: hidden;
   background: #fff;
   font-family: "Ubuntu", sans-serif;
 }
@@ -80,7 +81,8 @@ header .fa-chevron-down {
 }
 
 .features {
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 }
 .features .bot_title {
   margin-bottom: 10rem;
@@ -92,6 +94,55 @@ header .fa-chevron-down {
 .features img {
   width: 5rem;
   height: 4rem;
+}
+
+.widgets {
+  min-height: 100vh;
+  height: 100%;
+}
+.widgets .title {
+  color: #648CFF;
+}
+.widgets .bot_title {
+  margin-bottom: 10rem;
+}
+.widgets .img-fluid {
+  width: 100%;
+}
+.widgets .control-prev {
+  position: absolute;
+  right: 7rem;
+}
+.widgets .control-prev .fa-chevron-left {
+  font-size: 4rem;
+  color: #C3CFE5;
+}
+.widgets .control-next {
+  position: absolute;
+  left: 7rem;
+}
+.widgets .control-next .fa-chevron-right {
+  font-size: 4rem;
+  color: #C3CFE5;
+}
+
+.screenshots {
+  height: 100%;
+  min-height: 100vh;
+}
+.screenshots .title {
+  color: #648CFF;
+  margin-top: 10rem;
+}
+.screenshots .bot_title {
+  margin-bottom: 10rem;
+}
+.screenshots .text-title {
+  color: #648CFF;
+}
+.screenshots .middle-row {
+  margin-top: 17rem;
+  margin-bottom: 17rem;
 }
 
 /*# sourceMappingURL=style.css.map */

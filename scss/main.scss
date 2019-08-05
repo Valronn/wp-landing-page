@@ -3,7 +3,8 @@
 
 
 
-body{
+body,html {
+    overflow-x:hidden;
     background:#fff;
     font-family:$ubuntu;
 }
@@ -84,10 +85,11 @@ header{
 }
 
 .features{
+  min-height:100vh;
+  height:100%;
   .bot_title{
     margin-bottom: 10rem;
   }
-  height:100vh;
   .title{
     margin-top:10rem;
     color:$blue;
@@ -95,5 +97,52 @@ header{
   img{
     width:5rem;
     height:4rem;
+  }
+}
+.widgets{
+  min-height:100vh;
+  height:100%;
+  .title{
+    color:$blue;
+  }
+  .bot_title{
+    margin-bottom: 10rem;
+  }
+  .img-fluid{
+    width:100%
+  }
+  .control-prev{
+    position: absolute;
+    right:7rem;
+    .fa-chevron-left{
+      font-size:4rem;
+      color:#C3CFE5;
+    }
+  }
+  .control-next{
+    position: absolute;
+    left:7rem;
+    .fa-chevron-right{
+      font-size:4rem;
+      color:#C3CFE5;
+    }
+  }
+}
+.screenshots{
+  height:100%;
+  min-height:100vh;
+  .title{
+    color:$blue;
+    margin-top:10rem;
+  }
+  .bot_title{
+    margin-bottom: 10rem;
+  }
+  .text-title{
+    color:$blue;
+  }
+  .middle-row{
+    margin-top:17rem;
+    margin-bottom:17rem;
   }
 }

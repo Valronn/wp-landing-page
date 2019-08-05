@@ -145,4 +145,16 @@ header .fa-chevron-down {
   margin-bottom: 17rem;
 }
 
+.quotes {
+  height: 100%;
+  min-height: 100vh;
+}
+.quotes .title {
+  color: #648CFF;
+  margin-top: 10rem;
+}
+.quotes .bot_title {
+  margin-bottom: 10rem;
+}
+
 /*# sourceMappingURL=style.css.map */

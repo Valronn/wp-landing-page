@@ -146,3 +146,15 @@ header{
     margin-bottom:17rem;
   }
 }
+
+.quotes{
+  height:100%;
+  min-height:100vh;
+  .title{
+    color:$blue;
+    margin-top:10rem;
+  }
+  .bot_title{
+    margin-bottom: 10rem;
+  }
+}

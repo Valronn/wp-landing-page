@@ -1,5 +1,5 @@
 <footer>
-  <div class="download-app">
+  <div id="download-app">
     <div class="container">
       <div class="row pre-footer">
         <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ml-md-5 ml-sm-0 ml-xs-0 ml-lg-0 ml-xl-0">
@@ -21,10 +21,7 @@
             src="<?php  echo get_bloginfo('template_directory'); ?>./images/footer_phones/images/3phones_03.jpg" />
         </div>
       </div>
-
     </div>
-
-
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

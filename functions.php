@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 function add_google_fonts()
 {
@@ -17,3 +17,7 @@ function add_scripts()
 
 add_action('wp_print_styles', 'add_google_fonts');
 add_action('wp_enqueue_scripts', 'add_scripts');
+
+
+
+add_theme_support('title-tag');

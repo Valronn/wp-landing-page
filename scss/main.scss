@@ -1,37 +1,38 @@
-@import './variables/colors';
-@import './variables/fonts';
+@import "./variables/colors";
+@import "./variables/fonts";
 
-
-
-body,html {
-    overflow-x:hidden;
-    background:#fff;
-    font-family:$ubuntu;
+body,
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background: #fff;
+  font-family: $ubuntu;
 }
-header{
-    min-height:100vh;
-    height:100%;
-    background:url('./images/header_background/images/bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    border-bottom-left-radius: 60% 8%;
-    border-bottom-right-radius: 60% 8%;
-    .transparent{
-    background:transparent;
-    box-shadow:none;
-    .nav-link{
-        color:$white;
-        font-size:1rem;
+header {
+  min-height: 100vh;
+  height: 100%;
+  background: url("./images/header_background/images/bg.jpg") no-repeat center
+    center fixed;
+  background-size: cover;
+  border-bottom-left-radius: 60% 8%;
+  border-bottom-right-radius: 60% 8%;
+  .transparent {
+    background: transparent;
+    box-shadow: none;
+    .nav-link {
+      color: $white;
+      font-size: 1rem;
     }
-    .navbar-brand{
-        color:$white;
-        width:40%;
+    .navbar-brand {
+      color: $white;
+      width: 40%;
     }
     .toggler {
-        transition: 1s all ease;
-        width: 50px;
-        height: 50px;
-        margin-top: 40px;
-        .bar-1 {
+      transition: 1s all ease;
+      width: 50px;
+      height: 50px;
+      margin-top: 40px;
+      .bar-1 {
         height: 3px;
         width: 30px;
         background: $white;
@@ -47,126 +48,126 @@ header{
         width: 30px;
         background: $white;
       }
-      }
     }
-    h1,h6{
-      color:$white;
-    }
-    .buttons{
-      margin-right:7.5rem;
-    }
-    img{
-      width:30rem;
-      margin-left:3rem;
-    }
-    .feature-btn{
-      background:$blue-d;
-      color:$white;
-    }
-    .download-btn{
-      background:$orange;
-      color:$white;
-    }
-    .icon-down{
-      width:100%;
-      left:50%;
-      position: absolute;
-      height:40px;
-      width:40px;
-      background:$white;
-      border-radius:50%;
-    }
-    .fa-chevron-down{
-      color:#FF5459;
-      left: 13px;
+  }
+  h1,
+  h6 {
+    color: $white;
+  }
+  .buttons {
+    margin-right: 7.5rem;
+  }
+  img {
+    width: 30rem;
+    margin-left: 3rem;
+  }
+  .feature-btn {
+    background: $blue-d;
+    color: $white;
+  }
+  .download-btn {
+    background: $orange;
+    color: $white;
+  }
+  .icon-down {
+    width: 100%;
+    left: 50%;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: $white;
+    border-radius: 50%;
+  }
+  .fa-chevron-down {
+    color: #ff5459;
+    left: 13px;
     top: 14px;
-      position: absolute;
-    }
-}
-
-.features{
-  min-height:100vh;
-  height:100%;
-  .bot_title{
-    margin-bottom: 10rem;
-  }
-  .title{
-    margin-top:10rem;
-    color:$blue;
-  }
-  img{
-    width:5rem;
-    height:4rem;
-  }
-}
-.widgets{
-  min-height:100vh;
-  height:100%;
-  .title{
-    color:$blue;
-  }
-  .bot_title{
-    margin-bottom: 10rem;
-  }
-  .img-fluid{
-    width:100%
-  }
-  .control-prev{
     position: absolute;
-    right:7rem;
-    .fa-chevron-left{
-      font-size:4rem;
-      color:#C3CFE5;
-    }
-  }
-  .control-next{
-    position: absolute;
-    left:7rem;
-    .fa-chevron-right{
-      font-size:4rem;
-      color:#C3CFE5;
-    }
-  }
-}
-.screenshots{
-  height:100%;
-  min-height:100vh;
-  .title{
-    color:$blue;
-    margin-top:10rem;
-  }
-  .bot_title{
-    margin-bottom: 10rem;
-  }
-  .text-title{
-    color:$blue;
-  }
-  .middle-row{
-    margin-top:17rem;
-    margin-bottom:17rem;
   }
 }
 
-.quotes{
-  height:100%;
-  min-height:100vh;
-  .title{
-    color:$blue;
-    margin-top:10rem;
+#features {
+  min-height: 100vh;
+  height: 100%;
+  .bot_title {
+    margin-bottom: 10rem;
   }
-  .bot_title{
+  .title {
+    margin-top: 10rem;
+    color: $blue;
+  }
+  img {
+    width: 5rem;
+    height: 4rem;
+  }
+}
+#widgets {
+  min-height: 100vh;
+  height: 100%;
+  .title {
+    color: $blue;
+  }
+  .bot_title {
+    margin-bottom: 10rem;
+  }
+  .img-fluid {
+    width: 100%;
+  }
+  .control-prev {
+    position: absolute;
+    right: 7rem;
+    .fa-chevron-left {
+      font-size: 4rem;
+      color: #c3cfe5;
+    }
+  }
+  .control-next {
+    position: absolute;
+    left: 7rem;
+    .fa-chevron-right {
+      font-size: 4rem;
+      color: #c3cfe5;
+    }
+  }
+}
+#screenshots {
+  height: 100%;
+  min-height: 100vh;
+  .title {
+    color: $blue;
+    margin-top: 10rem;
+  }
+  .bot_title {
+    margin-bottom: 10rem;
+  }
+  .text-title {
+    color: $blue;
+  }
+  .middle-row {
+    margin-top: 17rem;
+    margin-bottom: 17rem;
+  }
+}
+
+#quotes {
+  height: 100%;
+  min-height: 100vh;
+  .title {
+    color: $blue;
+    margin-top: 10rem;
+  }
+  .bot_title {
     margin-bottom: 10rem;
   }
 }
-  .download-app{
-  height:100%;
+#download-app {
+  height: 100%;
   min-height: 15rem;
-  background:$blue;
-  .pre-footer{
-    padding-top:5rem;
+  background: $blue;
+  .pre-footer {
+    padding-top: 5rem;
   }
-  .white-text{
-    color:#fff;
+  .white-text {
+    color: #fff;
   }
 }
-

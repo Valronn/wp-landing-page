@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="features">
+<div id="features">
     <div class="container">
         <h1 class="display-4 title text-center">
             <b>PERFECT FEATURES</b>
@@ -43,7 +43,7 @@
         </div>
     </div>
 </div>
-<div class="widgets">
+<div id="widgets">
     <div class="container">
         <h1 class="display-4 title text-center">
             <b>SIMPLE WIDGETS</b>
@@ -80,7 +80,7 @@
         </div>
     </div>
 </div>
-<div class='screenshots'>
+<div id='screenshots'>
     <div class="container">
         <h1 class="display-4 title text-center">
             <b>SCREENSHOTS</b>
@@ -92,90 +92,101 @@
                     src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_phones/images/phone_03.jpg" />
             </div>
             <div class="col-lg-6 col-xl-6 col-sm-6 col-md-6 align-self-center">
-
-                <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_icons/images/icon_03.jpg" />
+                <img class="img-fluid"
+                    src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_icons/images/icon_03.jpg" />
                 <h1 class="text-title my-3"><b>WHEN THE CLOUDS</b></h1>
-                <p>Variable information on the air humidity, the 
+                <p>Variable information on the air humidity, the
                     feeling of the weather, and the ability to
                     share this with your friends
                 </p>
             </div>
         </div>
-            <div class='middle-row row '>
-<div class="col-lg-6 col-xl-6 col-sm-6 col-md-6 align-self-center">
-                        <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_icons/images/icon_11.jpg" />
-                        <h1 class="text-title my-3"><b>WHEN THE SUN</b></h1>
-                        <p>Sometimes the simplest thins are
-                                the hardest to find. So we created a
-                                new line for everyday life
-                        </p>
-                    </div>
-                    <div class="col-lg-6 col-xl-6 col-sm-6 col-md-6 ">
-                        <img class="img-fluid"
-                            src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_phones/images/phone_07.jpg" />
-                    </div>
-                    
-                    
-                </div>
-                <div class='row '>
-                        <div class="col-lg-6 col-xl-6 col-sm-6 col-md-6 ">
-                            <img class="img-fluid mb-4"
-                                src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_phones/images/phone_11.jpg" />
-                        </div>
-                        <div class="col-lg-6 col-xl-6 col-sm-6 col-md-6 align-self-center">
-            
-                            <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_icons/images/icon_07.jpg" />
-                            <h1 class="text-title my-3"><b>WHEN THE CLOUDS</b></h1>
-                            <p>Sometimes the simplest thins are
-                                    the hardest to find. So we created a
-                                    new line for everyday life
-                            </p>
-                        </div>
-                    </div>
+        <div class='middle-row row '>
+            <div class="col-lg-6 col-xl-6 col-sm-6 col-md-6 align-self-center">
+                <img class="img-fluid"
+                    src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_icons/images/icon_11.jpg" />
+                <h1 class="text-title my-3"><b>WHEN THE SUN</b></h1>
+                <p>Sometimes the simplest thins are
+                    the hardest to find. So we created a
+                    new line for everyday life
+                </p>
+            </div>
+            <div class="col-lg-6 col-xl-6 col-sm-6 col-md-6 ">
+                <img class="img-fluid"
+                    src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_phones/images/phone_07.jpg" />
+            </div>
         </div>
+        <div class='row '>
+            <div class="col-lg-6 col-xl-6 col-sm-6 col-md-6 ">
+                <img class="img-fluid mb-4"
+                    src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_phones/images/phone_11.jpg" />
+            </div>
+            <div class="col-lg-6 col-xl-6 col-sm-6 col-md-6 align-self-center">
+
+                <img class="img-fluid"
+                    src="<?php echo get_bloginfo('template_directory'); ?>/images/screenshots_icons/images/icon_07.jpg" />
+                <h1 class="text-title my-3"><b>WHEN THE CLOUDS</b></h1>
+                <p>Sometimes the simplest thins are
+                    the hardest to find. So we created a
+                    new line for everyday life
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="quotes">
+<div id="quotes">
     <div class="container">
-            <h1 class="display-4 title text-center">
-                    <b>WHAT PEOPLE ARE SAYING</b>
-                </h1>
-                <h6 class="text-muted text-center bot_title">Reviews</h6>
-                <div class="row">
-                    <div class="col ml-5">
-                            <blockquote class="blockquote d-flex flex-column">
-                                    <img class="img-fluid align-self-start" src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_11.jpg" />
-                                    <p class="mb-0 text-left">What art offers in space - a certain breathing room<br/> for the spirit.</p>
-                                    <p><small>John Updike</small></p>
-                                    <img class="img-fluid align-self-end" src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_15.jpg" />
-                                  </blockquote>
-                    </div>
-                    <div class="col ml-5">
-                            <blockquote class="blockquote d-flex flex-column">
-                                    <img class="img-fluid align-self-start" src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_11.jpg" />
-                                    <p class="mb-0 text-left">We do not see nature with our<br/> eyes but with our understandings and our hearts.</p>
-                                    <p><small>William Hazlitt </small></p>
-                                    <img class="img-fluid align-self-end" src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_15.jpg" />
-                                  </blockquote>
-                    </div>
-                </div>
-                <div class="row">
-                        <div class="col ml-5">
-                                <blockquote class="blockquote d-flex flex-column">
-                                        <img class="img-fluid align-self-start" src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_11.jpg" />
-                                        <p class="mb-0 text-left">The only courage that matters is the kind that gets <br/> you from one moment to the next.</p>
-                                        <p><small>Mignon McLaughlin </small></p>
-                                        <img class="img-fluid align-self-end" src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_15.jpg" />
-                                      </blockquote>
-                        </div>
-                        <div class="col ml-5">
-                                <blockquote class="blockquote d-flex flex-column">
-                                        <img class="img-fluid align-self-start" src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_11.jpg" />
-                                        <p class="mb-0 text-left">No man has a good enough memory to be a success-<br/>ful liar.</p>
-                                        <p><small>Abraham Lincoln</small></p>
-                                        <img class="img-fluid align-self-end" src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_15.jpg" />
-                                      </blockquote>
-                        </div>
-                    </div>
+        <h1 class="display-4 title text-center">
+            <b>WHAT PEOPLE ARE SAYING</b>
+        </h1>
+        <h6 class="text-muted text-center bot_title">Reviews</h6>
+        <div class="row">
+            <div class="col ml-5">
+                <blockquote class="blockquote d-flex flex-column">
+                    <img class="img-fluid align-self-start"
+                        src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_11.jpg" />
+                    <p class="mb-0 text-left">What art offers in space - a certain breathing room<br /> for the spirit.
+                    </p>
+                    <p><small>John Updike</small></p>
+                    <img class="img-fluid align-self-end"
+                        src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_15.jpg" />
+                </blockquote>
+            </div>
+            <div class="col ml-5">
+                <blockquote class="blockquote d-flex flex-column">
+                    <img class="img-fluid align-self-start"
+                        src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_11.jpg" />
+                    <p class="mb-0 text-left">We do not see nature with our<br /> eyes but with our understandings and
+                        our hearts.</p>
+                    <p><small>William Hazlitt </small></p>
+                    <img class="img-fluid align-self-end"
+                        src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_15.jpg" />
+                </blockquote>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col ml-5">
+                <blockquote class="blockquote d-flex flex-column">
+                    <img class="img-fluid align-self-start"
+                        src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_11.jpg" />
+                    <p class="mb-0 text-left">The only courage that matters is the kind that gets <br /> you from one
+                        moment to the next.</p>
+                    <p><small>Mignon McLaughlin </small></p>
+                    <img class="img-fluid align-self-end"
+                        src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_15.jpg" />
+                </blockquote>
+            </div>
+            <div class="col ml-5">
+                <blockquote class="blockquote d-flex flex-column">
+                    <img class="img-fluid align-self-start"
+                        src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_11.jpg" />
+                    <p class="mb-0 text-left">No man has a good enough memory to be a success-<br />ful liar.</p>
+                    <p><small>Abraham Lincoln</small></p>
+                    <img class="img-fluid align-self-end"
+                        src="<?php echo get_bloginfo('template_directory') ?>/images/what_people_are_saying_quotes/images/quote_mark_15.jpg" />
+                </blockquote>
+            </div>
+        </div>
     </div>
 </div>
 

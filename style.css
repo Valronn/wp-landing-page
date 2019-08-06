@@ -1,4 +1,6 @@
-body, html {
+body,
+html {
+  scroll-behavior: smooth;
   overflow-x: hidden;
   background: #fff;
   font-family: "Ubuntu", sans-serif;
@@ -7,7 +9,8 @@ body, html {
 header {
   min-height: 100vh;
   height: 100%;
-  background: url("./images/header_background/images/bg.jpg") no-repeat center center fixed;
+  background: url("./images/header_background/images/bg.jpg") no-repeat center
+    center fixed;
   background-size: cover;
   border-bottom-left-radius: 60% 8%;
   border-bottom-right-radius: 60% 8%;
@@ -46,7 +49,8 @@ header .transparent .toggler .bar-3 {
   width: 30px;
   background: #fff;
 }
-header h1, header h6 {
+header h1,
+header h6 {
   color: #fff;
 }
 header .buttons {
@@ -57,11 +61,11 @@ header img {
   margin-left: 3rem;
 }
 header .feature-btn {
-  background: #4466C9;
+  background: #4466c9;
   color: #fff;
 }
 header .download-btn {
-  background: #FC6A42;
+  background: #fc6a42;
   color: #fff;
 }
 header .icon-down {
@@ -74,98 +78,98 @@ header .icon-down {
   border-radius: 50%;
 }
 header .fa-chevron-down {
-  color: #FF5459;
+  color: #ff5459;
   left: 13px;
   top: 14px;
   position: absolute;
 }
 
-.features {
+#features {
   min-height: 100vh;
   height: 100%;
 }
-.features .bot_title {
+#features .bot_title {
   margin-bottom: 10rem;
 }
-.features .title {
+#features .title {
   margin-top: 10rem;
-  color: #648CFF;
+  color: #648cff;
 }
-.features img {
+#features img {
   width: 5rem;
   height: 4rem;
 }
 
-.widgets {
+#widgets {
   min-height: 100vh;
   height: 100%;
 }
-.widgets .title {
-  color: #648CFF;
+#widgets .title {
+  color: #648cff;
 }
-.widgets .bot_title {
+#widgets .bot_title {
   margin-bottom: 10rem;
 }
-.widgets .img-fluid {
+#widgets .img-fluid {
   width: 100%;
 }
-.widgets .control-prev {
+#widgets .control-prev {
   position: absolute;
   right: 7rem;
 }
-.widgets .control-prev .fa-chevron-left {
+#widgets .control-prev .fa-chevron-left {
   font-size: 4rem;
-  color: #C3CFE5;
+  color: #c3cfe5;
 }
-.widgets .control-next {
+#widgets .control-next {
   position: absolute;
   left: 7rem;
 }
-.widgets .control-next .fa-chevron-right {
+#widgets .control-next .fa-chevron-right {
   font-size: 4rem;
-  color: #C3CFE5;
+  color: #c3cfe5;
 }
 
-.screenshots {
+#screenshots {
   height: 100%;
   min-height: 100vh;
 }
-.screenshots .title {
-  color: #648CFF;
+#screenshots .title {
+  color: #648cff;
   margin-top: 10rem;
 }
-.screenshots .bot_title {
+#screenshots .bot_title {
   margin-bottom: 10rem;
 }
-.screenshots .text-title {
-  color: #648CFF;
+#screenshots .text-title {
+  color: #648cff;
 }
-.screenshots .middle-row {
+#screenshots .middle-row {
   margin-top: 17rem;
   margin-bottom: 17rem;
 }
 
-.quotes {
+#quotes {
   height: 100%;
   min-height: 100vh;
 }
-.quotes .title {
-  color: #648CFF;
+#quotes .title {
+  color: #648cff;
   margin-top: 10rem;
 }
-.quotes .bot_title {
+#quotes .bot_title {
   margin-bottom: 10rem;
 }
 
-.download-app {
+#download-app {
   height: 100%;
   min-height: 15rem;
-  background: #648CFF;
+  background: #648cff;
 }
-.download-app .pre-footer {
+#download-app .pre-footer {
   padding-top: 5rem;
 }
-.download-app .white-text {
+#download-app .white-text {
   color: #fff;
 }
 
